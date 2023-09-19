@@ -9,12 +9,12 @@
     width: 300px;
     background-color: rgb(4, 156, 156);
     margin: 10px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 #big-box {
     width: 942px;
-    height: 350px
+    height: 350px;
 }
 
 .break {
@@ -114,14 +114,33 @@
     z-index: 2;
 }
 
+/* .people {
+    background-image: url("./images/noun-group-680871.png");
+    background-position: bottom 50px right 100px;
+    background-size: 150px;
+} */
 
 .people-icon{
-    width: 100px;
-    position: relative;
+    width: 150px;
+    position: absolute;
     z-index: 3;
-    margin-top: 260px;
+    margin-top: -141px;
+    margin-left: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+#ii-person {
+    margin-left: 315px;
+}
+
+#iii-person {
+    margin-left: 170px;
+}
+
+#iv-person {
+    margin-left: 30px;
+}
 
 #subscribe-form{
     margin-top: 100px;
