@@ -117,9 +117,9 @@
 
 .people-icon{
     width: 100px;
-    /* position: absolute;
-    z-index: 2; */
-    margin-top: -150px;
+    position: relative;
+    z-index: 3;
+    margin-top: 260px;
 }
 
 
